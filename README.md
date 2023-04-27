@@ -7,6 +7,9 @@ Currently, just the basic blink file.
 
 ## Build
 cd ./build
+
 cmake -G "NMake Makefiles" ..
+
 nmake
+
 cp blink.uf2 F:\
